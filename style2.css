@@ -1,0 +1,41 @@
+ /* Create four equal columns that floats next to each other */
+.column {
+    float: center;
+    width: 33.3%;
+
+    font-family: arial, "Helvetica", sans-serif;
+    font-size: medium;
+  	text-align: justify;
+  	hyphens: auto;
+  	margin: auto;
+  	padding: 1em;
+  	max-width: 60em;
+  	background-color: #F6F6F6;
+
+}
+
+h1
+{
+    font-family: arial, "Helvetica", sans-serif;
+}
+
+pre, code {
+	font-family: "Latin Modern Mono", "Terminus", "DejaVu Sans Mono", monospace;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row{
+    max-width: 500px;
+    margin: auto;
+}
+
+.header{
+    margin: auto;
+    text-align: center;
+{
