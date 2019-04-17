@@ -77,13 +77,13 @@ div.box {
 .columnHome {
 	float: left;
 	margin: 0;
-	width: 33%;
+	width: 30%;
 }
 
 .columnArchive {
 	float: left;
 	margin: 0;
-	width: 66%;
+	width: 67%;
 }
 
 .dark {
