@@ -74,6 +74,18 @@ div.box {
 	width: 33%;
 }
 
+.columnHome {
+	float: left;
+	margin: 0;
+	width: 33%;
+}
+
+.columnArchive {
+	float: left;
+	margin: 0;
+	width: 66%;
+}
+
 .dark {
 	background-color: black;
 }
