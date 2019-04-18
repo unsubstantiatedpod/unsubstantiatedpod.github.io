@@ -111,3 +111,11 @@ em#quote:hover:before {
 em#quote:hover:after {
 	content: attr(latin);
 }
+
+tdLeft {
+	width:30%
+}
+
+tdLeft {
+	width:70%
+}
