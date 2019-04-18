@@ -1,0 +1,113 @@
+hr {
+	border-style: ridge;
+	border-width: 1px;
+	border-color: #000;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica", sans-serif;
+	text-align: justify;
+	hyphens: auto;
+	margin: auto;
+	padding: 1em;
+	max-width: 60em;
+	background-color: #F6F6F6;
+}
+
+pre, code {
+	font-family: "Latin Modern Mono", "Terminus", "DejaVu Sans Mono", monospace;
+}
+
+a {
+	color: #0000FF;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F6F6F6;
+	background-color: #0000FF;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.half {
+	width: 50%;
+}
+
+.full {
+	width: 100%;
+}
+
+.right {
+	float: right;
+	padding-left: 2em;
+}
+
+.left {
+	float: left;
+	padding-right: 2em;
+}
+
+.clear {
+	clear: both;
+	padding-top: 1em;
+}
+
+div.box {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.column {
+	float: left;
+	margin: 0;
+	width: 33%;
+}
+
+.columnHome {
+	float: left;
+	margin: 0;
+	width: 30%;
+}
+
+.columnArchive {
+	float: left;
+	margin: 0;
+	width: 67%;
+}
+
+.dark {
+	background-color: black;
+}
+
+span.milkshake:hover {
+	position: relative;
+}
+
+span.milkshake:hover:after {
+	content: url("../res/img/milkshake.jpg");
+	display: block;
+	position: absolute;
+}
+
+em#quote:before {
+	content: attr(english);
+}
+
+em#quote:hover:before {
+	content: '';
+}
+
+em#quote:hover:after {
+	content: attr(latin);
+}
