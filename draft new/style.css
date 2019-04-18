@@ -74,16 +74,16 @@ div.box {
 	width: 33%;
 }
 
-.columnEpisodes {
+.columnHome {
 	float: left;
 	margin: 0;
 	width: 30%;
 }
 
-.columnArchive {
+.columnEpisodes {
 	float: left;
 	margin: 0;
-	width: 67%;
+	width: 70%;
 }
 
 .dark {
