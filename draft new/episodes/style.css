@@ -114,11 +114,6 @@ em#quote:hover:after {
 
 /*episode tables*/
 
-td {
-	width: 100%;
-	height: auto;
-}
-
 td.tdLeft {
 	width:30%
 }
