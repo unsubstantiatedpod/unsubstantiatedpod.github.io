@@ -119,10 +119,10 @@ td {
 	height: auto;
 }
 
-.tdLeft {
+td.tdLeft {
 	width:30%
 }
 
-.tdRight {
+td.tdRight {
 	width:70%
 }
