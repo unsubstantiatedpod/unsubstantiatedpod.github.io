@@ -112,10 +112,10 @@ em#quote:hover:after {
 	content: attr(latin);
 }
 
-.tdLeft {
+td.tdLeft {
 	width:30%
 }
 
-.tdLeft {
+td.tdLeft {
 	width:70%
 }
