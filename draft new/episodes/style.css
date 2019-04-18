@@ -112,10 +112,17 @@ em#quote:hover:after {
 	content: attr(latin);
 }
 
-td.tdLeft {
+/*episode tables*/
+
+td {
+	width: 100%;
+	height: auto;
+}
+
+.tdLeft {
 	width:30%
 }
 
-td.tdRight {
+.tdRight {
 	width:70%
 }
