@@ -111,3 +111,21 @@ em#quote:hover:before {
 em#quote:hover:after {
 	content: attr(latin);
 }
+
+/* /episodes */
+
+td{
+	width: 100%;
+}
+
+td.tdLeft {
+	width:30%
+}
+
+td.tdRight {
+	width:70%
+}
+
+td.tdSplit {
+	width:50%
+}
