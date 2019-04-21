@@ -41,12 +41,12 @@ img.center {
 
 img.left{
 	display: block;
-	float:left;
+	align-items: center;
 }
 
 img.right{
 	display: block;
-	float:right;
+	align-items: center;
 }
 
 .half {
