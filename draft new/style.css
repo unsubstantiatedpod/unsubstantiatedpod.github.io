@@ -40,10 +40,12 @@ img.center {
 }
 
 img.left{
+	display: block;
 	float:left;
 }
 
 img.right{
+	display: block;
 	float:right;
 }
 
