@@ -37,7 +37,16 @@ img.center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 25px;
+}
+
+img.left{
+	display: block;
+	margin-left: auto;
+}
+
+img.right{
+	display: block;
+	margin-right: auto;
 }
 
 .half {
