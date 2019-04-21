@@ -37,7 +37,7 @@ img.center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 25px;
+	padding-bottom: 25px;
 }
 
 .half {
@@ -120,15 +120,17 @@ td{
 }
 
 td.tdLeft {
-	width:30%
+	width:30%;
 }
 
 td.tdRight {
-	width:70%
+	width:70%;
 }
 
 td.tdSplit {
-	width:50%
+	width:50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 /* /about */
