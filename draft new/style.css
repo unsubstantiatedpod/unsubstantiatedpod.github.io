@@ -130,7 +130,7 @@ td.tdSplit {
 	width:50%
 }
 
-table.about {
-	width: 100%;
-	border: 1px solid black;
+tr.about {
+	width:600px;
+	text-align: center;
 }
