@@ -40,13 +40,11 @@ img.center {
 }
 
 img.left{
-	display: block;
-	margin-left: auto;
+	float:left;
 }
 
 img.right{
-	display: block;
-	margin-right: auto;
+	float:right;
 }
 
 .half {
