@@ -143,9 +143,8 @@ td.tdRight {
 	width:70%;
 }
 
-td.tdSplit {
+td.tdSplita {
 	width:50%;
-	text-align: center;
 	padding-bottom: 20px;
 }
 
@@ -154,4 +153,9 @@ td.tdSplit {
 table.about {
 	width:700px;
 	text-align: left;
+}
+
+td.tdSplitb {
+	width:50%;
+	text-align: center;
 }
