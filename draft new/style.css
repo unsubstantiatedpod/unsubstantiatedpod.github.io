@@ -148,6 +148,11 @@ td.tdSplita {
 	padding-bottom: 20px;
 }
 
+td.shownotes {
+	padding-top: 20px;
+        padding-bottom: 20px;
+}
+
 /* /about */
 
 table.about {
