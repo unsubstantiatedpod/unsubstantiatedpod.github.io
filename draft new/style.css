@@ -145,7 +145,7 @@ td.tdRight {
 
 td.tdSplit {
 	width:50%;
-
+	text-align: center;
 	padding-bottom: 20px;
 }
 
