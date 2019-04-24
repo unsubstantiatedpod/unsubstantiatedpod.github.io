@@ -143,22 +143,22 @@ td.tdRight {
 	width:70%;
 }
 
+td.tdSplita {
+	width:50%;
+	padding-bottom: 20px;
+	height:220px;
+}
 
 td.shownotes {
 	padding-top: 20px;
   padding-bottom: 20px;
 }
+
 /* /about */
 
 table.about {
 	width:700px;
 	text-align: left;
-}
-
-td.tdSplita {
-	width:50%;
-	padding-bottom: 20px;
- 	height:220px;
 }
 
 td.tdSplitb {
