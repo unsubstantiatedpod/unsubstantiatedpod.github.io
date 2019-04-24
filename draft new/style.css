@@ -143,10 +143,6 @@ td.tdRight {
 	width:70%;
 }
 
-td.tdSplita {
-	width:50%;
-	padding-bottom: 20px;
-}
 
 td.shownotes {
 	padding-top: 20px;
@@ -159,13 +155,13 @@ table.about {
 	text-align: left;
 }
 
-td.tdSplitb {
+td.tdSplita {
 	width:50%;
 	padding-bottom: 20px;
-	height:120px;
+  height:220px;
 }
 
-td.tdSplitc {
+td.tdSplitb {
 	width:50%;
 	text-align: center;
 	padding-bottom: 20px;
