@@ -143,10 +143,6 @@ td.tdRight {
 	width:70%;
 }
 
-td.tdSplita {
-	width:50%;
-	padding-bottom: 20px;
-}
 
 td.shownotes {
 	padding-top: 20px;
@@ -159,13 +155,13 @@ table.about {
 	text-align: left;
 }
 
-td.tdSplitb {
+td.tdSplita {
 	width:50%;
 	padding-bottom: 20px;
-	height:120px;
+ 	height:120px;
 }
 
-td.tdSplitc {
+td.tdSplitb {
 	width:50%;
 	text-align: center;
 	padding-bottom: 20px;
@@ -174,14 +170,4 @@ td.tdSplitc {
 td.tdcenter {
 	text-align:center;
 	padding-bottom:15px;
-}
-
-td.container > div {
-    width: 100%;
-    height: 100%;
-    overflow:hidden;
-}
-
-td.container {
-    height: 20px;
 }
