@@ -1,7 +1,6 @@
 hr {
-	border-style: ridge;
+	border-style: solid;
 	border-width: 1px;
-	border-color: #000;
 }
 
 * {
@@ -9,17 +8,17 @@ hr {
 }
 
 body,pre {
+	background-color: #F6F6F6;
 	font-family: "Helvetica", sans-serif;
 	text-align: justify;
 	hyphens: auto;
 	margin: auto;
 	padding: 1em;
 	max-width: 60em;
-	background-color: #F6F6F6;
 }
 
-pre, code {
-	font-family: "Latin Modern Mono", "Terminus", "DejaVu Sans Mono", monospace;
+p.banner {
+	padding-bottom:10px;
 }
 
 a {
@@ -29,19 +28,26 @@ a {
 }
 
 a:hover {
+	color: #202020;
+	text-decoration: underline;
+}
+
+/* for bg text inverse colors
+
+a:hover {
 	color: #e9e9e9;
 	background-color: #363636;
 }
 
+*/
 a.center {
 	text-align: center;
 }
 
-
 img.center {
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.box {
@@ -50,47 +56,56 @@ div.box {
 	height: auto;
 }
 
-.column {
+div.column {
 	float: left;
 	margin: 0;
 	width: 33%;
 }
 
-.columnHome {
+div.columnHome {
 	float: left;
 	margin: 0;
 	width: 30%;
 }
 
-.columnEpisodes {
+div.columnEpisodes {
 	float: left;
 	margin: 0;
 	width: 70%;
+	padding-bottom:20px;
 }
+
 
 /* /episodes */
 
 td{
 	width: 100%;
+	padding-bottom:10px;
+	padding-top:20px;
 }
 
 td.tdLeft {
 	width:30%;
+	vertical-align:top;
 }
 
 td.tdRight {
 	width:70%;
+	padding-left:15px;
 }
 
 td.tdSplita {
 	width:50%;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
 	height:220px;
+	text-align:justify;
 }
 
-td.shownotes {
-	padding-top: 20px;
-  padding-bottom: 20px;
+div.shownotes {
+	padding-top: 10px;
+  padding-bottom: 60px;
 }
 
 /* /about */
@@ -103,10 +118,17 @@ table.about {
 td.tdSplitb {
 	width:50%;
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 td.tdcenter {
 	text-align:center;
 	padding-bottom:15px;
+}
+
+
+/* copyright div */
+
+div.copy {
+	text-align:left;
 }
